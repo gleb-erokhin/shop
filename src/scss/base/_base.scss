@@ -7,8 +7,8 @@ html {
 
 body {
 	background-color: var(--page-bg);
-	color: var(--text-color);
-    font-family: var(--font-main);
+	color: var(--text-main-color);
+    font-family: var(--font-family);
 	font-size: var(--font-size);
 }
 
@@ -17,7 +17,7 @@ img {
 }
 
 a {
-	color: var(--link-color);
+	color: var(--text-main-color);
 }
 
 code {

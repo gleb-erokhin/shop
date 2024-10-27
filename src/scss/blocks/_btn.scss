@@ -1,0 +1,13 @@
+.btn, a.btn {
+    display: inline-block;
+    padding: 0 33px;
+    border-radius: 4px;
+    height: 51px;
+    line-height: 48px;
+    box-shadow: 0 4px 15px 0 rgba(123, 12, 46, 0.35);
+    background-color: var(--accent-color);
+
+    font-family: var(--second-family);
+    font-size: 26px;
+    color: var(--text-controls-color);
+}

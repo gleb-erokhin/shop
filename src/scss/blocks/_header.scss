@@ -1,11 +1,33 @@
 .header {
-	background-color: #c0e4f4;
-	padding: 50px 0;
+	background-color: var(--page-bg);
 
 	&__row {
+		position: relative;
 		display: flex;
-		justify-content: space-between;
+		justify-content: flex-end;
 		align-items: center;
 	}
-}
 
+	&__content {
+		position: absolute;
+		max-width: 600px;
+
+		left: 0;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+
+	&__title {
+		margin-bottom: 20px;
+	}
+
+	&__text {
+		margin-bottom: 60px;
+	}
+
+	&__btn-wrapper {
+	}
+
+	&__img {
+	}
+}

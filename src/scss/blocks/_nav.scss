@@ -1,6 +1,7 @@
 .nav {
 	padding: 40px 0;
 	font-family: var(--font-family);
+	color: var(--text-main-color);
 
 	&__row {
 		display: flex;
@@ -12,7 +13,6 @@
 
 		font-weight: 400;
 		font-size: 28px;
-		color: var(--text-color);
 	}
 
 	&__logo:hover {
@@ -57,6 +57,6 @@
 		font-size: 12px;
 		line-height: 20px;
 		text-align: center;
-		color: var(--text-second-color);
+		color: var(--text-controls-color);
 	}
 }
