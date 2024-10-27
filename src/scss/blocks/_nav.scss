@@ -1,6 +1,6 @@
 .nav {
 	padding: 40px 0;
-	font-family: var(--font-accent);
+	font-family: var(--font-family);
 
 	&__row {
 		display: flex;
@@ -24,6 +24,7 @@
 		gap: 30px;
 
 		font-size: 18px;
+		margin-top: 4px;
 	}
 
 	&__item:hover {
@@ -36,11 +37,26 @@
 	}
 
 	&__cart-link {
-		display: block;
+		position: relative;
+		display: inline-block;
 		padding: 5px;
+		margin-top: 4px;
 	}
 
 	&__cart-num {
+		position: absolute;
+		top: -10%;
+		right: -3%;
+		width: 20px;
+		height: 20px;
+		border-radius: 50%;
+		background-color: var(--accent-color);
 
+		font-family: var(--font-family);
+		font-weight: 700;
+		font-size: 12px;
+		line-height: 20px;
+		text-align: center;
+		color: var(--text-second-color);
 	}
 }
