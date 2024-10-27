@@ -1,5 +1,7 @@
-.btn, a.btn {
+.btn,
+a.btn {
     display: inline-block;
+    top: 0;
     padding: 0 33px;
     border-radius: 4px;
     height: 51px;
@@ -10,4 +12,12 @@
     font-family: var(--second-family);
     font-size: 26px;
     color: var(--text-controls-color);
+
+    transition: box-shadow 0.2s ease-in, background-color 0.2s ease-in;
+}
+
+.btn:hover,
+a.btn:hover {
+    box-shadow: 0 4px 25px 0 rgba(183, 13, 64, 0.35);
+    background-color: var(--accent-color);
 }
