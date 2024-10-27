@@ -1,0 +1,20 @@
+.products {
+    margin-bottom: 70px;
+    
+    &__row {
+    }
+    &__header {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+
+        margin-bottom: 40px;
+    }
+    &__cards {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 40px;
+        column-gap: 30px;
+    }
+}
