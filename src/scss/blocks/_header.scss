@@ -8,9 +8,3 @@
 		align-items: center;
 	}
 }
-
-.header__nav {
-	@include tablet {
-		display: none;
-	}
-}

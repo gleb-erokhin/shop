@@ -1,11 +1,46 @@
-.header__nav {
-}
 .nav {
-	font-size: 18px;
-}
-.nav__list {
-	display: flex;
-	column-gap: 30px;
-}
-.active {
+	padding: 40px 0;
+	font-family: var(--font-accent);
+
+	&__row {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	&__logo {
+		margin-right: 80px;
+
+		font-weight: 400;
+		font-size: 28px;
+		color: var(--text-color);
+	}
+
+	&__logo:hover {
+		text-decoration: underline;
+		cursor: pointer;
+	}
+	&__list {
+		display: flex;
+		gap: 30px;
+
+		font-size: 18px;
+	}
+
+	&__item:hover {
+		text-decoration: underline;
+		color: var(--accent-color);
+	}
+
+	&__cart {
+		margin-left: auto;
+	}
+
+	&__cart-link {
+		display: block;
+		padding: 5px;
+	}
+
+	&__cart-num {
+
+	}
 }
