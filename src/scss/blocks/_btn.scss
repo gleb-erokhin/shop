@@ -11,7 +11,7 @@ a.btn {
 
     font-family: var(--second-family);
     font-size: 26px;
-    color: var(--text-controls-color);
+    color: var(--text-block-color);
 
     transition:
         box-shadow 0.2s ease-in,
@@ -29,7 +29,7 @@ a.btn--outline {
     border: 1px solid var(--accent-color);
     border-radius: 4px;
     height: 42px;
-    background-color: var(--text-controls-color);
+    background-color: var(--text-block-color);
     box-shadow: unset;
 
     font-family: var(--second-family);
@@ -42,7 +42,7 @@ a.btn--outline {
 
 .btn--outline:hover,
 a.btn--outline:hover {
-    color: var(--text-controls-color);
+    color: var(--text-block-color);
     box-shadow: unset;
     transition:
         color 0.2s ease-in,
