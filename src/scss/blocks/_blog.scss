@@ -1,23 +1,24 @@
 .blog {
     padding-top: 70px;
-    padding-bottom: 90px;
-    
+
     &__row {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-
+    
     &__header {
+        margin-bottom: 86px;
+
         display: flex;
+        align-items: center;
         flex-direction: column;
         gap: 10px;
-
-        margin-bottom: 86px;
     }
 
     &__posts {
         margin-bottom: 76px;
+
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
@@ -33,11 +34,37 @@
     }
 
     &__post-content {
+        max-width: 370px;
         display: flex;
         flex-direction: column;
         gap: 10px;
     }
 
     &__link {
+        font-family: var(--second-family);
+        font-weight: var(--font-weight);
+        font-size: 16px;
+    }
+
+    &__link::after {
+        margin-left: 2px;
+        display: inline-block;
+        content: '';
+        width: 24px;
+        height: 24px;
+
+        background-image: url('./../../img/svgicons/shape.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        vertical-align: middle;
+
+        transition: margin 0.2s ease-in;
+    }
+    &__link:hover {
+        text-decoration: underline;
+    }
+
+    &__link:hover::after {
+        margin-left: 5px;
     }
 }
