@@ -1,8 +1,7 @@
 .products {
-    margin-bottom: 70px;
+    padding-top: 60px;
+    padding-bottom: 70px;
     
-    &__row {
-    }
     &__header {
         display: flex;
         flex-direction: column;
@@ -11,10 +10,18 @@
 
         margin-bottom: 40px;
     }
+
     &__cards {
         display: flex;
+        justify-content: center;
         flex-wrap: wrap;
         row-gap: 40px;
         column-gap: 30px;
+
+        margin-bottom: 40px;
+    }
+
+    &__btn-wrapper {
+        text-align: center;
     }
 }

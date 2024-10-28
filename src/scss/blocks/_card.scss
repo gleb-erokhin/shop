@@ -5,8 +5,18 @@
     max-width: 270px;
     row-gap: 12px;
 
-    &__title {
-    }
     &__price {
+        display: flex;
+        gap: 10px;
+    }
+
+    &__price-old {
+        text-decoration-line: line-through;
+    }
+    
+    &__price-new {
+        font-weight: 700;
+        color: var(--accent-color);
     }
 }
+

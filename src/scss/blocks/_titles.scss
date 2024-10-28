@@ -12,10 +12,9 @@
 }
 
 .title-3 {
-	font-size: 26px;
-	font-weight: 700;
-	line-height: 96px;
-	font-family: var(--font-titles);
+	font-family: var(--second-family);
+	font-weight: var(--font-weight);
+	font-size: 20px;
 }
 
 .title-4 {
@@ -33,8 +32,8 @@
 }
 
 .subtitle {
-	font-weight: var(--font-weight);
-	font-size: 14px;
-	text-transform: uppercase;
-	color: var(--subtitle-color);
+    font-weight: var(--font-weight);
+    text-transform: uppercase;
+    color: var(--subtitle-color);
 }
+
