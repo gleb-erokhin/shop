@@ -36,9 +36,16 @@
 	color: var(--text-main-color);
 }
 
-.subtitle {
-    font-weight: var(--font-weight);
-    text-transform: uppercase;
-    color: var(--subtitle-color);
+.text-2 {
+	font-family: var(--font-family);
+	font-weight: var(--font-weight);
+	font-size: 14px;
+	line-height: 1.3;
+	color: var(--text-second-color);
 }
 
+.subtitle {
+	font-weight: var(--font-weight);
+	text-transform: uppercase;
+	color: var(--subtitle-color);
+}
