@@ -46,6 +46,12 @@
 
 .subtitle {
 	font-weight: var(--font-weight);
-	text-transform: uppercase;
 	color: var(--subtitle-color);
+}
+
+.subtitle--uppercase {
+	text-transform: uppercase;
+}
+.subtitle--center {
+	text-align: center;
 }

@@ -1,0 +1,39 @@
+.join-section {
+    padding-top: 45px;
+    padding-bottom: 100px;
+
+    &__row {
+    }
+
+    &__header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    &__header p {
+        max-width: 630px;
+        align-items: center;
+    }
+
+    &__form {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    &__input {
+        margin-right: 10px;
+        height: 42px;
+    
+        border: 1px solid #f72464;
+        border-radius: 4px;
+        padding: 10px;
+    
+        font-family: var(--font-family);
+        font-weight: var(--font-weight);
+        font-size: 16px;
+        color: var(subtitle-color);
+    }
+}

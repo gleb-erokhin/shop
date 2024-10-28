@@ -41,10 +41,22 @@ a.btn--outline {
 }
 
 .btn--outline:hover,
-a.btn--outline:hover {
+a.btn--outline:hover,
+.btn--join,
+a.btn--join {
     color: var(--text-block-color);
     box-shadow: unset;
     transition:
         color 0.2s ease-in,
         box-shadow 0.2s ease-in;
+}
+
+.btn--join,
+a.btn--join {
+    height: 42px;
+    line-height: 38px;
+    font-family: var(--font-family);
+    font-weight: var(--font-weight);
+    font-size: 16px;
+    color: var(--text-block-color);
 }
