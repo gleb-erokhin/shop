@@ -4,6 +4,11 @@
 	margin: 0 auto;
 }
 
+.container--whide {
+	max-width: var(--container-width-whide);
+
+}
+
 .container-full {
 	padding: 0 var(--container-padding);
 	max-width: 100%;

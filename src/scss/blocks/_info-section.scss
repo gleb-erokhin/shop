@@ -1,0 +1,30 @@
+.info-section {
+    // для фона заливки используем псевдоэлемент к родителю info 
+    position: relative;
+    background-image: url("./../../img/info/get.jpg");
+    background-position: center center; /* x y */
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &__row {
+        // чтобы текст вышел выше по уровню надо выставить для индекса позишин релатив
+        position: relative;
+        z-index: 1;
+
+        height: 188px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 115px;
+    }
+}
+
+.info-section::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+}
