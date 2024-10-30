@@ -1,7 +1,11 @@
 .nav {
-	padding: 40px 0;
+	padding: 20px 0;
 	font-family: var(--font-family);
 	color: var(--text-main-color);
+
+	@include tablet {
+		padding: 40px 0;
+	}
 
 	&__row {
 		display: flex;
@@ -10,10 +14,14 @@
 		gap: 30px;
 	}
 	&__logo {
-		margin-right: 50px;
-
+		margin-right: 10px;
+		
 		font-weight: 400;
 		font-size: 28px;
+		
+		@include tablet {
+			margin-right: 50px;
+		}
 	}
 
 	&__logo:hover {
@@ -21,11 +29,15 @@
 		cursor: pointer;
 	}
 	&__list {
-		display: flex;
+		display: none;
 		gap: 30px;
-
+		
 		font-size: 18px;
 		margin-top: 4px;
+		
+		@include tablet {
+			display: flex;
+		}
 	}
 
 	&__item:hover a {
