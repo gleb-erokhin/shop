@@ -1,6 +1,6 @@
 .footer {
 	padding: 30px 0;
-	color: var(--text-block-color);
+	color: var(--page-dark-bg);
 
 	&__column {
 		margin: 0 auto;
@@ -21,7 +21,11 @@
 		text-transform: uppercase;
 		color: var(--text-block-color);
 		transition: color 0.2s ease-in;
-		
+		font-size: 11px;
+
+		@include tablet {
+			font-size: inherit;
+		}
 	}
 
 	&__link:hover {

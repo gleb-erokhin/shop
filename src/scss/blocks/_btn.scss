@@ -31,13 +31,11 @@ a.btn:hover {
 a.btn--outline {
     border: 1px solid var(--accent-color);
     border-radius: 4px;
-    height: 42px;
     background-color: var(--text-block-color);
     box-shadow: unset;
 
     font-family: var(--second-family);
     font-size: 16px;
-    line-height: 41px;
     text-transform: uppercase;
     text-align: center;
     color: var(--text-second-color);
