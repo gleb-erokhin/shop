@@ -2,7 +2,8 @@
     // для фона заливки используем псевдоэлемент к родителю info 
     position: relative;
     background-image: url("./../../img/info/get.jpg");
-    background-position: center center; /* x y */
+    background-position: center center;
+    /* x y */
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -11,11 +12,20 @@
         position: relative;
         z-index: 1;
 
-        height: 188px;
+        height: 130px;
         display: flex;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
-        justify-content: space-between;
-        padding: 0 115px;
+        gap: 15px;
+
+        @include tablet {
+            height: 188px;
+            justify-content: space-between;
+            flex-direction: unset;
+            padding: 0 100px;
+
+        }
     }
 }
 

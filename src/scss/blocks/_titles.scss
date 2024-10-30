@@ -17,8 +17,12 @@
 }
 
 .title-2--info {
-	font-size: 52px;
+	font-size: 22px;
 	color: var(--text-block-color);
+
+	@include tablet {
+	font-size: 52px;
+	}
 }
 
 .title-3 {

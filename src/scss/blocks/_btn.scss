@@ -2,10 +2,9 @@
 a.btn {
     display: inline-block;
     top: 0;
-    padding: 0 33px;
+    // padding: 11px33px 14px;
+    padding: 0.42307em 1.26923em 0.538461em;
     border-radius: 4px;
-    height: 40px;
-    line-height: 40px;
     box-shadow: 0 4px 15px 0 rgba(123, 12, 46, 0.35);
     background-color: var(--accent-color);
 
@@ -18,9 +17,7 @@ a.btn {
         background-color 0.2s ease-in;
 
     @include tablet {
-    font-size: 16px;
-            height: 51px;
-                line-height: 48px;
+        font-size: 26px;
     }
 }
 
