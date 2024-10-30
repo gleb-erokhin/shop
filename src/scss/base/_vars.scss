@@ -9,6 +9,7 @@
 	--font-weight: 400;
 
 	--page-bg: #fff;
+	--page-footer-bg: #000;
 	--text-main-color: #000;
 	--text-second-color: #777777;
 	--text-block-color: #fff;
@@ -22,5 +23,6 @@
 
 .dark {
     --page-bg: #252526;
+	--page-footer-bg: #fff;
     --text-color: #fff;
 }
